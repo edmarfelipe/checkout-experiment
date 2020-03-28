@@ -1,0 +1,152 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+  padding: 40px;
+}
+
+.form {
+  background: #3f40f0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.diver {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+label p {
+  color: #bf1650;
+}
+
+label p::before {
+  display: inline;
+  content: '⚠ ';
+}
+
+.btn-progress,
+input {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid #e3e7ed;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  padding-right: 15px;
+  box-sizing: border-box;
+  line-height: 2;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #1e2027;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+button[type='submit'],
+input[type='submit'] {
+  background: #3f40f0;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button[type='submit']:hover,
+input[type='submit']:hover {
+  background: #3f40f0;
+}
+
+button[type='submit']:active,
+input[type='button']:active,
+input[type='submit']:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type='button']:hover {
+  transition: 0.3s all;
+}
+
+button[type='submit'],
+input[type='button'],
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button[type='button'] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #1e2027;
+  font-weight: 200;
+}
+
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+pre {
+  color: #1e2027;
+  white-space: pre;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container button {
+  display: inline;
+}
